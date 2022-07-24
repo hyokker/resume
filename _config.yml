@@ -6,21 +6,21 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 김진욱
-title: 사람과 함께할 때 재미와 행복을 느끼는 개발자 김진욱 입니다.
-email: kimjin0132@naver.com
+name: 김효건
+title: 협업을 좋아하고, 음악을 사랑하는 개발자 김효건 입니다.
+email: vhrgh1@daum.net
 # email_title: Email (Email title override)
-phone: 010-3084-3045
+phone: 010-7466-9171
 # phone_title: Phone (Phone title override)
-website: https://github.com/KimJinoook
+website: https://github.com/hyokker
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: 
-github_username:  KimJinoook
+github_username:  hyokker
 # stackoverflow_username: 
 # dribbble_username: 
 # facebook_username: 
@@ -53,12 +53,15 @@ github_username:  KimJinoook
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java, Spring 기반의 개발자로 이젠 아카데미 자바 웹 개발자 교육을 이수하며 성적 최우수상을 수상하였습니다. 두번의 프로젝트를 진행하며 <mark>팀장</mark>의 역할을 맡아
-  팀원들의 기술역량을 최대로 발휘할 수 있도록 업무분담, 효율적인 진행 계획을 고민했던 경험이 있습니다.<br/><br/>
-  문제해결을 위해 고민하는 것을 좋아합니다. 원하는 결과를 도출하기 위해 로직처리를 고민하는 것에서 퍼즐을 푸는 것과 같은 재미를 느낍니다.
-  이전에 겪었던 오류와 해결방법을 기록으로 남겨, 해당 경험을 토대로 어제보다 발전한 개발자가 되도록 노력하고 있습니다.<br/><br/>
-  새로운 기술에 도전하는 것을 좋아합니다. Three.js를 이용하여 사용자와 교감할 수 있는 웹사이트를 만든 경험이 있습니다. 능동적이고 적극적인 자세로
-  새로운 것을 배우며 발전을 위해 뛰어듭니다. 이러한 점을 바탕으로 변화하는 환경에 빠르게 적응하고 배우는 개발자가 되겠습니다.
+  Java, Spring 기반의 개발자로 이젠 아카데미 자바 웹 개발자 교육을 이수하였습니다. 두번의 프로젝트를 진행하였으며, 팀원들과의 협업을 효율적으로 이루기 위해 의사소통 및 업무분담을
+  효과적으로 할 수 있도록 노력하였으며, 그 결과 아주 완벽한 프로젝트는 아니지만, 팀원들끼리 성취감을 느낄 수 있게 프로젝트를 완성 하였습니다.<br/><br/>
+  문제가 생기면 고민하고 고민하며, 어떻게든 해결하기 위해 노력합니다. 제가 모르는 분야나, 어려워하는 부분은 검색, 혹은 지인들에게 질문하며 
+  원하는 결과를 도출하기 위해 최선을 다하고 있습니다.
+  또한 앞으로는 이전에 겪은 오류 와 그를 해결 하는 방법을 기록으로 남기려고 합니다. 같은 문제가 발생하면 그 기록과 경험을 토대로 조금씩이지만 성장 할 수 있는 개발자가 되려고 합니다.
+  <br/><br/>
+  저는 팀원들이, 주변에서 찾는 개발자가 되고 싶습니다. 
+  문제가 생기거나, 힘든 부분, 어려운 부분이 생기면 누구나 물어보고, 같이 문제를 해결 하는 그런 개발자가 되고 싶습니다. 
+  혼자만 개발 하는 것이 아닌, 팀원과 동료와 함께 개발하는 개발자가 되겠습니다.
   
 
 content:
@@ -89,10 +92,10 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: MetaUs
-        link: https://github.com/KimJinoook/metaus
-        link_text: github.com/KimJinoook/metaus
-        sub_title: 팀장
+        title: Wonder(원더)
+        link: https://github.com/hyokker/wonder
+        link_text: github.com/hyokker/wonder
+        sub_title: 팀원
         caption: 2022.05.30 ~ 2022.07.18
         #additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -102,60 +105,14 @@ content:
         #    icon: fab fa-github
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-           소상공인의 메타버스 진출을 돕기 위한 크리에이터 - 소상공인 연결 플랫폼
+           개발자 및 디자이너를 연결 해주는 중개 플랫폼 
         description: | # this will include new lines to allow paragraphs
-          * java security, spring security 활용 비밀번호 암호화
-          * Three.js와 ZipLoader 이용, 압축파일 해제 없이 3D모델 로딩
-          * 회원 관리 간 경고 누적수에 따른 접속 차단 기능 구현
-          * Chart.js와 Sheet.js 활용 데이터 관리
-          
-          
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: 이젠 먹으러 갑니다
-        link: https://github.com/KimJinoook/EZEN_SEMI_2
-        link_text: github.com/KimJinoook/EZEN_SEMI_2
-        sub_title: 팀장
-        caption: 2022.05.09 ~ 2022.05.27
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-           코로나로 위축된 외식산업 활성화를 위한 맛집 리스트 사이트
-        description: | # this will include new lines to allow paragraphs
-          * 웹소켓 이용 접속자 채팅 기능 구현
-          * 맛집 등록 시 주소를 위도경도 자동 변환, 카카오 지도 api 마커 등록
-          * 좋아요, 평점, 리뷰 기능 구현
-          
-          
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: POS & mobile order
-        link: https://github.com/KimJinoook/semiProject_POSandMobileOrder
-        link_text: github.com/KimJinoook/pos
-        sub_title: 개인프로젝트
-        caption: 2022.04.07 ~ 2022.04.26
-        #additional_links:
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #    icon: fab fa-github
-        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-           자바 숙달 및 소켓 이해를 위한 개인 프로젝트
-        description: | # this will include new lines to allow paragraphs
-          * 계산기 기능 및 시재관리, 결제 수단별 매출 관리
-          * 모바일오더 이용 간 매장별 오픈여부 확인
-          * 매장 선택 주문, 소켓 이용 주문 전달
-          
-          
+          * 로그인 및 회원 가입, 회원 가입 시 spring security 활용 비밀번호 암호화 및 로그인 세션 저장
+          * 카카오톡 로그인 API 를 이용해 카카오 로그인 시 회원 DB에 저장 후 로그인 및 세션 저장
+          * 아이디 및 비밀번호 찾기 구현, 비밀번호 찾기 시 ajax를 통해 임시 비밀번호 email 발송 (EmailSender 이용)
+          * 고객 문의 페이지 Google map API 사용, 문의 양식 작성 후 문의 시 문의 내용 등록한 email로 발송 (EmailSender 이용)
+          * 관리자 로그인 페이지 생성 및 관리자 로그인 시 로그인 세션 저장
+          * QNA게시판 CRUD 구현(글 답변 - 관리자만 가능, 수정 및 삭제 - 관리자와 작성자만 가능)
           
   #- title: Experience
   #  layout: list
@@ -177,11 +134,9 @@ content:
         title: 스마트웹&콘텐츠개발-자바(JAVA) 웹 개발자(백엔드)
         sub_title: 이젠아카데미
         caption: 2022.02. ~ 2022.07.
-        quote: >
-          성적 최우수상 수상
         description: | # this will include new lines to allow paragraphs
           개발자 환경 구축, 개발 환경 운영 지원, 프로그래밍 언어 활용, 화면 구현, 프로그래밍 언어 응용, 애플리케이션 테스트 수행, 애플리케이션 배포, 응용SW 기초 기술 활용, 데이터 입출력 구현, 통합 구현, 인터페이스 구현, 서버프로그램 구현, 애플리케이션 설계, 화면 설계, 요구사항 확인, 데이터베이스 구현, SQL활용, SQL작성, UI 구현
-  
+          
   #- title: A Little More About Me
   #  layout: text
   #  content: | # this will include new lines to allow paragraphs
